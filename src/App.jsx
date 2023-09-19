@@ -45,7 +45,7 @@ function App() {
       <h1 className="text-3xl font-bold text-center m-12">
         Course Registration
       </h1>
-      <div className="flex gap-6">
+      <div className="flex flex-col justify-center items-center lg:flex-row gap-6 ">
         <div>
           <Courses courseAddingHandler={courseAddingHandler}></Courses>
         </div>
